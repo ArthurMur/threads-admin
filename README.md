@@ -1,35 +1,14 @@
-# admin
+# Административная панель для проекта [thread](https://github.com/ArthurMur/threads)
 
-## Installation
+Этот репозиторий содержит административную панель для проекта "thread" - онлайн магазина одежды. Административная панель предоставляет возможность администраторам сайта управлять товарами: добавлять новые товары, редактировать их описания, управлять наличием на складе и удалять неактуальные товары.
 
-Install the application dependencies by running:
+![brave_JBtrl1sUq1](https://github.com/ArthurMur/threads-admin/assets/122103695/271423cc-b595-4002-9b43-c35ee0270284)
 
-```sh
-yarn
-```
 
-## Development
+## Функциональности
 
-Start the application in development mode by running:
-
-```sh
-yarn dev
-```
-
-## Production
-
-Build the application in production mode by running:
-
-```sh
-yarn build
-```
-
-## Authentication
-
-The included auth provider should only be used for development and test purposes.
-You'll find a `users.json` file in the `src` directory that includes the users you can use.
-
-You can sign in to the application with the following usernames and password:
-- janedoe / password
-- johndoe / password
-
+- [x] Отображение списка товаров.
+- [x] Удаление товаров.
+- [ ] Добавление новых товаров с указанием названия, описания, цены и изображения.
+- [ ] Редактирование существующих товаров: изменение описания, цены и изображения.
+- [ ] Управление наличием товаров на складе.
